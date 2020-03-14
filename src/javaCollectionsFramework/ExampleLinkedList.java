@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class linkedList {
+public class ExampleLinkedList {
 
     public static void main(String[] args) {
         List<Integer> linkedList = new LinkedList<>();

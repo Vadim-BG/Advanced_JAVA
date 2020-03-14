@@ -1,14 +1,13 @@
 package javaCollectionsFramework;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class arrayList {
+public class ExampleArrayList {
 
     public static void main(String[] args) {
 
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new java.util.ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
             list.add(i);

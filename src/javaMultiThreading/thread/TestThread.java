@@ -30,7 +30,7 @@ class Runner implements Runnable {
     }
 }
 
-public class MyThread extends Thread {
+class MyThread extends Thread {
     public void run() {
         for (int i = 0; i < 1000; i++) {
             try {
